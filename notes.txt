@@ -1,0 +1,10 @@
+Repozytorium github
+
+Projekty maven 3
+mvn archetype:generate -DgroupId=com.jsikora.app -DartifactId=zad1 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+Exec plugin 
+http://www.mojohaus.org/exec-maven-plugin/
+
+zadania-jvm@jitsolutions.pl
+
