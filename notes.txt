@@ -8,3 +8,12 @@ http://www.mojohaus.org/exec-maven-plugin/
 
 zadania-jvm@jitsolutions.pl
 
+------------ Tworzenie projektu maven ------------------
+
+---- zad1
+mvn archetype:generate -DgroupId=com.jsikora.app -DartifactId=zad1 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+-dodajemy dependencies
+-zmieniamy kod
+-mvn package (budowanie aplikacji)
+-java -cp target/zad1-1.0-SNAPSHOT.jar com.jsikora.app.App
