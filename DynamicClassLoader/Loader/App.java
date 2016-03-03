@@ -1,4 +1,4 @@
-package com.jsikora;
+package jsikora;
 
 public class App {
 
@@ -6,11 +6,13 @@ public class App {
 			IllegalAccessException, ClassNotFoundException,
 			InterruptedException {
 		
-		MessageInter s0;
+		MessageInter s0,s1;
 
 		while (true) {
-			s0 = Service.newInstance();
+			s0 = new MessageZ();
+			s1 = Service.newInstance();
 			System.out.println(s0.message());
+			System.out.println(s1.message());
 
 			Thread.sleep(2000);
 		}

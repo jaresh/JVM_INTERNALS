@@ -1,10 +1,10 @@
-package com.jsikora;
+package jsikora;
 
 public class MessageZ implements MessageInter{
 
 	@Override
 	public String message() {
-		return "Jazdaaa";
+		return "Local Class";
 	}
 	
 }

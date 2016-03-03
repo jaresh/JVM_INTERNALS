@@ -1,4 +1,4 @@
-package com.jsikora;
+package jsikora;
 
 public interface MessageInter {
 
