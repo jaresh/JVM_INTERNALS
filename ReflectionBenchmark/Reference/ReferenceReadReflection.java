@@ -10,10 +10,11 @@ public class ReferenceReadReflection
     public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException, NoSuchFieldException, SecurityException {
     		
     	Object Test1 = Class.forName("TestObject").newInstance();
-        Field field = Test1.getClass().getField("testString");
+        Field field;
         String a;
         
-        for(int i=0; i<=500000000; i++){
+        for(int i=0; i<=5000000; i++){
+            field = Test1.getClass().getField("testString");
             a = (String)field.get(Test1);
         }
 

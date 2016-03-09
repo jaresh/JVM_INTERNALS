@@ -11,7 +11,7 @@ public class SimpleReadNoReflection
     		
     	int a;
     		
-    	for(int i=0; i<=500000000; i++){
+    	for(int i=0; i<=5000000; i++){
     		a = Test1.testInt;
     	}
 

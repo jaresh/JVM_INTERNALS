@@ -9,7 +9,7 @@ public class ReferenceWriteNoReflection
     		
     	TestObject Test1 = new TestObject();
     		
-    	for(int i=0; i<=500000000; i++){
+    	for(int i=0; i<=5000000; i++){
     		Test1.testString = "Hello!";
     	}
 
