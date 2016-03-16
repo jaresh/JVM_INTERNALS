@@ -1,6 +1,7 @@
 package com.jsikora;
 
 public class Person{
+	
 	public String firstName;
 	public String lastName;
 	public int age;

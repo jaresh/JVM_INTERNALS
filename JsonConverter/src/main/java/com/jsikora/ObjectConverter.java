@@ -70,7 +70,7 @@ public class ObjectConverter {
 		
 		Writer writer = new BufferedWriter(
 						new OutputStreamWriter(
-						new FileOutputStream("Person.json"), "utf-8"));
+						new FileOutputStream("Person_myconverter.json"), "utf-8"));
 		
 		writer.write(jsonString.toString());
 		writer.close();
